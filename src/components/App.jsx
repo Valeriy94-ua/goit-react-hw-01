@@ -7,9 +7,9 @@ export default function App() {
     <div>
       <h1>Best selling</h1>
 
-      <Product />
-      <Product />
-      <Product />
+      <Profile />
+      <Profile />
+      <Profile />
     </div>
   );
 }
