@@ -1,6 +1,6 @@
 // src/components/Product.jsx
 import "./Profile.css"
-export const Profile = ({ username, tag, location, image, stats }) => {
+export const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className="container">
         
@@ -10,7 +10,7 @@ export const Profile = ({ username, tag, location, image, stats }) => {
                 src={image}
                 alt="User avatar"
               />      
-            <p className="profile-username">{username}</p>
+            <p className="profile-username">{name}</p>
             <p className="profile-tag">@{tag}</p>
             <p className="profile-location">{location}</p>
         </div>

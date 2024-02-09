@@ -22,7 +22,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 .profile-img {
   height: 195px;
@@ -56,11 +55,13 @@ ul {
     font-weight: bold;
 }
 .profile-tag {
-    font-size: 32px;
+    font-size: 36px;
     color: #808080;}
 .profile-location {
-    font-size: 32px;
+    font-size: 36px;
     color: #808080;}
 .profile-username {
     color: black;
+    font-size: 47px;
+    font-weight: 625;
 }
