@@ -1,6 +1,21 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-  border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  border: 3px solid black;
   border-radius: 20px;
+  width: 525px;
+  height: 564px;
+  overflow: hidden;
 }
 .upper-profile-info {
     margin-top: 20px;
@@ -14,30 +29,38 @@
   width: 195px;
   overflow: hidden;
   border-radius: 50%;
-  background-color: darkslategrey;
+  background-color: #2A2A2A;
 }
 .status {
   display: flex;
+  height: 137px;
+  border-top: 3px solid #808080;
 }
-
-/* .parent_block {
-  position: relative;
-  height: 195px;
-  width: 195px;
-  margin: 30px;
-  overflow: hidden;
-  border: 1px solid black;
-  border-radius: 50%;
-  background-color: #eeeeee;
-} */
-
-/* img {
-  bottom: -1px;
-  left: 23px;
-  height: 184px;
-  width: 163px;
-} */
-p {
-    margin: 0;
-    padding: 0;
+.profile-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33.333%;
+    align-items: center;
+    background-color: #D3D3D3;
+}
+.profile-status:not(:last-child) {
+    border-right: 3px solid #808080;
+}
+.profile-status-h1 {
+    font-size: 29px;
+    font-weight: 500;
+}
+.profile-status-h2 {
+    font-size: 29px;
+    font-weight: bold;
+}
+.profile-tag {
+    font-size: 32px;
+    color: #808080;}
+.profile-location {
+    font-size: 32px;
+    color: #808080;}
+.profile-username {
+    color: black;
 }
