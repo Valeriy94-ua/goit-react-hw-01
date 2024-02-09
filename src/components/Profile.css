@@ -1,0 +1,43 @@
+.container {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.upper-profile-info {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.profile-img {
+  height: 195px;
+  width: 195px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: darkslategrey;
+}
+.status {
+  display: flex;
+}
+
+/* .parent_block {
+  position: relative;
+  height: 195px;
+  width: 195px;
+  margin: 30px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #eeeeee;
+} */
+
+/* img {
+  bottom: -1px;
+  left: 23px;
+  height: 184px;
+  width: 163px;
+} */
+p {
+    margin: 0;
+    padding: 0;
+}

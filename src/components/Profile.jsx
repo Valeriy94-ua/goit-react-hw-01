@@ -1,11 +1,37 @@
 // src/components/Product.jsx
-
-export const Profile = () => {
+import "./Profile.css"
+export const Profile = ({ username, tag, location, image, stats }) => {
   return (
-    <div>
-      <h2>Tacos</h2>
-			<img src="<https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640>" alt="Tacos With Lime" width="640" />
-			<p>Price: 999 credits</p>
+    <div className="container">
+        
+        <div className="upper-profile-info"> 
+            <img
+                className="profile-img"
+                src={image}
+                alt="User avatar"
+              />      
+            <p>{username}</p>
+            <p>@{tag}</p>
+            <p>{location}</p>
+        </div>
+
+          <ul className= "status">
+            <li>
+              <span>Followers</span>
+              <span>{stats.followers}</span>
+            </li>
+            <li>
+              <span>Views</span>
+              <span>{stats.views}</span>
+            </li>
+            <li>
+              <span>Likes</span>
+              <span>{stats.likes}</span>
+            </li>
+          </ul>
+        
     </div>
+
   );
 };
+
