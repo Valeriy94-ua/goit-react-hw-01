@@ -1,6 +1,7 @@
 // src/App.jsx
 
-import { Profile } from "./Profile";
+import { Profile } from "../Profile/Profile";
+import "./App.module.css"
 
 export function App() {
   return (

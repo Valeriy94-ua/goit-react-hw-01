@@ -17,13 +17,13 @@ ul {
   height: 564px;
   overflow: hidden;
 }
-.upper-profile-info {
+.upperProfileInfo {
     margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.profile-img {
+.profileImg{
   height: 195px;
   width: 195px;
   overflow: hidden;
@@ -35,7 +35,7 @@ ul {
   height: 137px;
   border-top: 3px solid #808080;
 }
-.profile-status {
+.profileStatus {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,24 +43,24 @@ ul {
     align-items: center;
     background-color: #D3D3D3;
 }
-.profile-status:not(:last-child) {
+.profileStatus:not(:last-child) {
     border-right: 3px solid #808080;
 }
-.profile-status-h1 {
+.profileStatusH1 {
     font-size: 29px;
     font-weight: 500;
 }
-.profile-status-h2 {
+.profileStatusH2 {
     font-size: 29px;
     font-weight: bold;
 }
-.profile-tag {
+.profileTag {
     font-size: 36px;
     color: #808080;}
-.profile-location {
+.profileLocation {
     font-size: 36px;
     color: #808080;}
-.profile-username {
+.profileUsername {
     color: black;
     font-size: 47px;
     font-weight: 625;
