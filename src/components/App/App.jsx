@@ -2,7 +2,7 @@
 
 import { Profile } from "../Profile/Profile";
 import "./App.module.css"
-// import userData from "../../userData.json"
+import userData from "../../userData.json"
 
 export function App() {
   return (
