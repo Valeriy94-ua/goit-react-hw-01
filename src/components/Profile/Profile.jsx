@@ -1,5 +1,7 @@
 // src/components/Product.jsx
 import css from "./Profile.module.css"
+import PropTypes from 'prop-types';
+
 
 // console.log(css);
 export const Profile = ({ name, tag, location, image, stats }) => {
