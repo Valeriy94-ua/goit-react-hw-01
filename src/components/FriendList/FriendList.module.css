@@ -4,5 +4,22 @@
 .friendListItem {
     display: flex;
     flex-direction: column;
-    
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 17px;
+}
+.status {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.status.online {
+    background-color: green;
+}
+  
+.status.offline {
+    background-color: red;
+}
+.name {
+    font-size: 20px;
 }

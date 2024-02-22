@@ -1,19 +1,19 @@
 // import friends from"../../friends.json"
 import css from "./FriendList.module.css";
 import FriendListItem from "./FriendListItem";
-import PropTypes from 'prop-types';
-import friends from "./friends.json"
+// import PropTypes from 'prop-types';
 
-export const FriendList = (friends) => {
+export const FriendList = ({friends}) => {
     return (
     <ul className={css.container}>
         {friends.map(friend => (
-        <FriendListItem key={friend.id} {...friend}>
+        <FriendListItem key={friend.id} {...friend}/>
         ))}
     </ul>
 
     );
 };
+export default FriendList;
 
 // FriendList.propTypes = {
 //     friends: PropTypes.arrayOf(
