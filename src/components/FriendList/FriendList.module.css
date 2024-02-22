@@ -1,16 +1,20 @@
 .container {
     display: flex;
+    flex-direction: column;
+
+    gap: 24px;
 }
 .friendListItem {
     display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid black;
     border-radius: 15px;
     padding: 17px;
 }
 .status {
-    height: 8px;
-    width: 8px;
+    height: 16px;
+    width: 16px;
     border-radius: 50%;
 }
 .status.online {
@@ -21,5 +25,5 @@
     background-color: red;
 }
 .name {
-    font-size: 20px;
+    font-size: 31px;
 }
