@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+}
+.friendListItem {
+    display: flex;
+    flex-direction: column;
+    
+}

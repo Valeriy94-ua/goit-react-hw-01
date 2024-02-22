@@ -3,7 +3,8 @@
 import { Profile } from "../Profile/Profile";
 import "./App.module.css"
 import userData from "../../userData.json"
-
+import  {FriendList}  from "../FriendList/FriendList"
+import friends from "../../friends.json"
 export function App() {
   return (
     <>
@@ -14,6 +15,8 @@ export function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
+
     </>
   );
 }
