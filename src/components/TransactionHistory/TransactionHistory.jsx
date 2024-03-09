@@ -4,16 +4,16 @@ import css from "./TransactionHistory.module.css"
 
 export function TransactionHistory ({item})  {
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th>Type</th>
-                    <th>Amount</th>
-                    <th>Currency</th>
+        <table className={css.table}>
+            <thead >
+                <tr className={css.table}>
+                    <th className={css.table}>Type</th>
+                    <th className={css.table}>Amount</th>
+                    <th className={css.table}>Currency</th>
                 </tr>
 
             </thead>
-            <tbody className={css.container}>
+            <tbody className={css.table}>
                 {item.map(transaction => (
                 <TransactionItem key={transaction.id} {...transaction}/>
                     ))}

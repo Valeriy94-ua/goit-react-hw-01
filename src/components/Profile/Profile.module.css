@@ -8,14 +8,15 @@ ul {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 3px solid black;
   border-radius: 20px;
   width: 525px;
   height: 564px;
   overflow: hidden;
+  margin-bottom: 25px;
 }
 .upperProfileInfo {
     margin-top: 20px;
