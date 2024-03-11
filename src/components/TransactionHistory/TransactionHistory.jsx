@@ -1,4 +1,4 @@
-import TransactionItem from "./TransactionItem"
+import TransactionItems from "./TransactionItems"
 import css from "./TransactionHistory.module.css"
 // import React from 'react';
 
@@ -14,8 +14,8 @@ export function TransactionHistory ({item})  {
 
             </thead>
             <tbody className={css.table}>
-                {item.map(transaction => (
-                <TransactionItem key={transaction.id} {...transaction}/>
+                {item .map(transaction => (
+                <TransactionItems key={transaction.id} {...transaction}/>
                     ))}
             </tbody>
 

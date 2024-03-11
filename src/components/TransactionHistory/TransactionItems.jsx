@@ -1,6 +1,6 @@
 import css from "./TransactionHistory.module.css"
 
-export function TransactionItem ({type, amount, currency}) {
+export function TransactionItems ({type, amount, currency}) {
     return (
         <tr className={css.table}>
             <td className={css.table}>{type}</td>
@@ -9,4 +9,4 @@ export function TransactionItem ({type, amount, currency}) {
          </tr>
     )
 }
-export default TransactionItem;
+export default TransactionItems;
